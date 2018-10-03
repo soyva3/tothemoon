@@ -1,3 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "To The Moon Studio"
+theme = "tothemoon"
+
+[params.meta]
+	title = "To The Moon Studio"
+	description = "We do cool stuff.... Just for your information dude!" #max 200 characters
+  url = "tothemoon.uy"
+  image = "/img/p1.png" #JPG, PNG, WEBP and GIF. SVG not supporter. Max 5MB.
+  twitterUser = "@tothemoon" # @user
