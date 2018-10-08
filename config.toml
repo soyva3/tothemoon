@@ -1,17 +1,11 @@
-baseURL = "https://tothemoon-a89d0.firebaseapp.com/"
+baseURL = "https://tothemoon.uy"
 languageCode = "en-us"
-title = "To The Moon Studio"
+title = "To The Moon"
 theme = "tothemoon"
 
 [params.meta]
 	title = "To The Moon Studio"
-	description = "We do cool stuff.... Just for your information dude!" #max 200 characters
+	description = "We do cool stuff...." #max 200 characters
   url = "tothemoon.uy"
   image = "/img/p1.png" #JPG, PNG, WEBP and GIF. SVG not supporter. Max 5MB.
   twitterUser = "@tothemoon" # @user
-
-	# Portfolio Section On Homepage
-	[params.portfolio]
-			enable  = true
-			title   = "Latest Works"
-			subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."

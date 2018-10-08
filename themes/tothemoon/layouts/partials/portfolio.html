@@ -1,10 +1,10 @@
-
 {{ "<!-- Portfolio Section Start -->" | safeHTML }}
 <div class="py-5">
   <div class="container">
     <div class="row">
-      {{ range .Site.RegularPages }}
+      {{ range $index, $element:= where .Data.Pages "Type" "portfolio" }}
       <div class="col-lg-3 col-md-6 p-2">
+        {{ $delay := mul $index 300 }}
         <figure class="media">
           <img class="img-fluid d-block media__image" src="{{ .Params.imageCaption }}" width="300" height="250">
           <figcaption class="media__body">
