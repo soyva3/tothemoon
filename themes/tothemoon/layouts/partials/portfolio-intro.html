@@ -1,0 +1,24 @@
+{{ "<!-- Portfolio Section Start -->" | safeHTML }}
+
+{{ "<!-- Page Header -->" | safeHTML }}
+<div class="container">
+
+  <div class="row">
+    <div class="col">
+      {{ with .Params.image }}
+      <img class="img-fluid" src="{{ . | absURL }}" alt="work-single-image">
+      {{ end }}
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-12 pt-5 mt-5">
+      <h1 class="portfolio-title text-center font-cabin">{{ .Params.client }}</h2>
+    </div>
+    <div class="col-12 mb-4">
+      <h1 class="portfolio-subtitle text-center font-mono">{{ .Title }}</h2>
+    </div>
+  </div>
+
+</div>

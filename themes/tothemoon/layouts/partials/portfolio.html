@@ -1,78 +1,24 @@
-<div class="container py-5 mt-5">
-
-  <ul class="grid h-caption align-items-end justify-content-center">
+{{ if .Site.Params.portfolio.enable }}
+{{ "<!-- Portfolio Section Start -->" | safeHTML }}
+<div class="py-5">
+  <div class="container">
     <div class="row">
-
-      <li class="col-6">
-        <figure>
-          <img src="{{ "img/4.jpg" | absURL }}" alt="img04">
-          <figcaption class="bg-dark">
-            <h3 class="">Spacial Revolution</h3>
-            <span class="text-primario">Google</span>
-            <a class="bg-secundario" href="#">Take a look</a>
+      {{ range $index, $element:= where .Data.Pages "Type" "portfolio" }}
+      <div class="col-lg-3 col-md-6 p-2">
+        {{ $delay := mul $index 300 }}
+        <figure class="media">
+          <img class="img-fluid d-block media__image" src="{{ .Params.imageCaption }}" width="300" height="250">
+          <figcaption class="media__body">
+            <a class="align-middle" href="{{ .Permalink }}">
+              <h2 class="text-center font-cabin p-title">{{ .Params.client }}</h2>
+              <p class="text-center font-mono p-subtitle">{{ .Title }}</p>
+            </a>
           </figcaption>
         </figure>
-      </li>
-
-
-
-      <li class="col-6">
-        <figure>
-          <img src="{{ "img/5.jpg" | absURL }}" alt="img01">
-          <figcaption>
-            <h3>Camera</h3>
-            <span>Jacob Cummings</span>
-            <a href="#">Take a look</a>
-          </figcaption>
-        </figure>
-      </li>
-
-
-      <li class="col-6">
-        <figure>
-          <img src="{{ "img/3.jpg" | absURL }}" alt="img02">
-          <figcaption>
-            <h3>Music</h3>
-            <span>Jacob Cummings</span>
-            <a href="#">Take a look</a>
-          </figcaption>
-        </figure>
-      </li>
-
-
-      <li class="col-6">
-        <figure>
-          <img src="{{ "img/4.jpg" | absURL }}" alt="img05">
-          <figcaption>
-            <h3>Safari</h3>
-            <span>Jacob Cummings</span>
-            <a href="#">Take a look</a>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li class="col-6">
-        <figure>
-          <img src="{{ "img/5.jpg" | absURL }}" alt="img03">
-          <figcaption>
-            <h3>Phone</h3>
-            <span>Jacob Cummings</span>
-            <a href="#">Take a look</a>
-          </figcaption>
-        </figure>
-      </li>
-
-      <li class="col-6">
-        <figure>
-          <img src="{{ "img/6.jpg" | absURL }}" alt="img06">
-          <figcaption>
-            <h3>Game Center</h3>
-            <span>Jacob Cummings</span>
-            <a href="#">Take a look</a>
-          </figcaption>
-        </figure>
-      </li>
+      </div>
+      {{ end }}
     </div>
+  </div>
 </div>
-</ul>
-</div><!-- /container -->
+{{ "<!-- Portfolio Section End -->" | safeHTML }}
+{{ end }}
