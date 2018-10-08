@@ -3,7 +3,7 @@
 <div class="py-5">
   <div class="container">
     <div class="row">
-      {{ range $index, $element:= where .Data.Pages "Type" "portfolio" }}
+      {{ range $index, $element:= where .Site.Pages "Type" "portfolio" }}
       <div class="col-lg-3 col-md-6 p-2">
         {{ $delay := mul $index 300 }}
         <figure class="media">
