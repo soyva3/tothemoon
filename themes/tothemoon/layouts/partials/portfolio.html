@@ -1,9 +1,9 @@
-{{ if .Site.Params.portfolio.enable }}
+
 {{ "<!-- Portfolio Section Start -->" | safeHTML }}
 <div class="py-5">
   <div class="container">
     <div class="row">
-      {{ range .Pages.ByLastmod }}
+      {{ range .Site.RegularPages }}
       <div class="col-lg-3 col-md-6 p-2">
         <figure class="media">
           <img class="img-fluid d-block media__image" src="{{ .Params.imageCaption }}" width="300" height="250">
@@ -20,4 +20,3 @@
   </div>
 </div>
 {{ "<!-- Portfolio Section End -->" | safeHTML }}
-{{ end }}
