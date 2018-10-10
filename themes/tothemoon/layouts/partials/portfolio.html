@@ -1,12 +1,12 @@
 {{ "<!-- Portfolio Section Start -->" | safeHTML }}
 <div class="py-5">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center align-middle">
       {{ range $index, $element:= where .Data.Pages "Type" "portfolio" }}
-      <div class="col-lg-3 col-md-6 p-2">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
         {{ $delay := mul $index 300 }}
         <figure class="media">
-          <img class="img-fluid d-block media__image" src="{{ .Params.imageCaption }}" width="300" height="250">
+          <img class="img-fluid d-block media__image" src="{{ .Params.imageCaption }}">
           <figcaption class="media__body">
             <a class="align-middle" href="{{ .Permalink }}">
               <h2 class="text-center font-cabin p-title">{{ .Params.client }}</h2>
