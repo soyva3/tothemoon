@@ -5,11 +5,12 @@
   --font-mono: font-family: 'Roboto Mono', monospace;
 }
 
+
 body {
-  font-family: var(--font-mono) !important;
-  font-size: 1rem;
-  font-weight: 400;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
   line-height: 1.5;
+
 }
 
 img {
@@ -24,12 +25,12 @@ img {
 }
 
 .font-cabin {
-  font-family: var(--font-cabin);
+  font-family: 'Cabin', sans-serif;
   font-weight: 700 !important;
 }
 
 .font-mono {
-  font-family: var(--font-mono) !important;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 400;
 }
 
@@ -169,4 +170,8 @@ a, a:hover {
 
 .media__body p {
   margin-bottom: 1.5em;
+}
+
+p {
+  padding-bottom: 1em !important;
 }

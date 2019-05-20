@@ -1,6 +1,6 @@
 ---
 title: "Character design"
-client: ""
+client: "---"
 image: "images/character/char-01.jpg"
 caption: ""
 imageCaption: "images/character/char-00.png"
