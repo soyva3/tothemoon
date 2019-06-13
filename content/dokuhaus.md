@@ -19,7 +19,7 @@ color: "#fffcf5"
 	<div class="row">
 		<div class="col-12 py-2">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/dokuhaus/dokuhaus_micro_2.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -29,7 +29,7 @@ color: "#fffcf5"
 	<div class="row">
 		<div class="col-12 col-md-6 py-2">
 			<div class="embed-responsive embed-responsive-4by3">
-				<video loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/dokuhaus/dokuhaus_micro_1.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -37,7 +37,7 @@ color: "#fffcf5"
 		</div>
 		<div class="col-12 col-md-6 py-2">
 			<div class="embed-responsive embed-responsive-4by3">
-				<video loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/dokuhaus/dokuhaus_micro_5.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -47,7 +47,7 @@ color: "#fffcf5"
 	<div class="row">
 		<div class="col-12 col-md-6 py-2">
 			<div class="embed-responsive embed-responsive-4by3">
-				<video loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/dokuhaus/dokuhaus_micro_3.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -55,7 +55,7 @@ color: "#fffcf5"
 		</div>
 		<div class="col-12 col-md-6 py-2">
 			<div class="embed-responsive embed-responsive-4by3">
-				<video loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/dokuhaus/dokuhaus_micro_4.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>

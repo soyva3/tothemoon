@@ -16,7 +16,7 @@ color: "#E6EBE0"
 	<div class="row">
 		<div class="col-12 col-lg-4 p-4">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video autoplay loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/knowmad-animation/es-2.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -24,7 +24,7 @@ color: "#E6EBE0"
 		</div>
 		<div class="col-12 col-lg-4 p-4">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video autoplay loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/knowmad-animation/es-3.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -32,7 +32,7 @@ color: "#E6EBE0"
 		</div>
 		<div class="col-12 col-lg-4 p-4">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video autoplay loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/knowmad-animation/es-4.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -47,7 +47,7 @@ color: "#E6EBE0"
 	<div class="row">
 		<div class="col-12 col-lg-4 py-2">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video autoplay loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/knowmad-animation/es-5.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -55,7 +55,7 @@ color: "#E6EBE0"
 		</div>
 		<div class="col-12 col-lg-4 py-2">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video autoplay loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/knowmad-animation/es-8.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -63,7 +63,7 @@ color: "#E6EBE0"
 		</div>
 		<div class="col-12 col-lg-4 py-2">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video autoplay loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/knowmad-animation/es-9-1.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -76,7 +76,7 @@ color: "#E6EBE0"
 	<div class="row">
 		<div class="col-12 col-lg-6 py-2">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video autoplay loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/knowmad-animation/es-9-2.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -84,7 +84,7 @@ color: "#E6EBE0"
 		</div>
 		<div class="col-12 col-lg-6 py-2">
 			<div class="embed-responsive embed-responsive-16by9">
-				<video autoplay loop>
+				<video autoplay muted loop playsinline>
 					<source src="/images/knowmad-animation/es-9-3.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
