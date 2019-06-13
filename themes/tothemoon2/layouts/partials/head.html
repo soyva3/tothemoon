@@ -1,27 +1,24 @@
-<head>
-	{{ "<!-- Responsive stuff -->" | safeHTML }}
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	{{ "<!-- Bootstrap -->" | safeHTML }}
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	{{ "<!-- Favicon -->" | safeHTML }}
-	<link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
-	{{ "<!-- Custom Fonts -->" | safeHTML }}
-	<link href="https://fonts.googleapis.com/css?family=Cabin:700|Roboto+Mono&display=swap" rel="stylesheet">
-	{{ "<!-- OpenGraph & TwitterCard -->" | safeHTML }}
-	{{- with .Site.Params.meta }}
-	{{- range .home }}
-	<meta name="twitter:card" content="summary" />
-	<meta property="og:title" content="{{ .title }}" />
-	<meta property="og:description" content="{{ .description }}" />
-	<meta property="og:url" content="{{ .url }}" />
-	<meta property="og:image" content="{{ .image | absURL }}" />
-	<meta name="twitter:site" content="{{ .twitterUser }}" />
-	{{- end }}
-	{{- end }}
-	{{ "<!-- Extra css -->" | safeHTML }}
-	<link rel="stylesheet" href="{{ "css/main.css" | absURL }}" type="text/css">
-	<script src="{{ "js/modernizr.custom.js" | absURL }}"></script>
-	<title>{{ .Page.Title }}</title>
-</head>
+{{ "<!-- Responsive stuff -->" | safeHTML }}
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{ "<!-- Bootstrap -->" | safeHTML }}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+{{ "<!-- Favicon -->" | safeHTML }}
+<link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
+{{ "<!-- Custom Fonts -->" | safeHTML }}
+<link href="https://fonts.googleapis.com/css?family=Cabin:700|Roboto+Mono&display=swap" rel="stylesheet">
+{{ "<!-- OpenGraph & TwitterCard -->" | safeHTML }}
+{{- with .Site.Params.meta }}
+{{- range .home }}
+<meta name="twitter:card" content="summary" />
+<meta property="og:title" content="{{ .title }}" />
+<meta property="og:description" content="{{ .description }}" />
+<meta property="og:url" content="{{ .url }}" />
+<meta property="og:image" content="{{ .image | absURL }}" />
+<meta name="twitter:site" content="{{ .twitterUser }}" />
+{{- end }}
+{{- end }}
+{{ "<!-- Extra css -->" | safeHTML }}
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}" type="text/css">
+<title>{{ .Page.Title }}</title>

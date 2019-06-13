@@ -181,9 +181,6 @@ p {
   padding-bottom: 1em !important;
 }
 
-video::-internal-media-controls-overlay-cast-button {
-    display: none;
-}
 
 .cont-bg {
     width: 85%;
