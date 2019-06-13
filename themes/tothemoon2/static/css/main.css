@@ -1,0 +1,219 @@
+:root {
+  --primario: #0078FF;
+  --secundario: #FF8700;
+  --font-cabin: font-family: 'Cabin', sans-serif;
+  --font-mono: font-family: 'Roboto Mono', monospace;
+}
+
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  line-height: 1.5;
+
+}
+
+img {
+  max-width: 100%;
+}
+.text-primario {
+  color: var(--primario) !important;
+}
+
+.text-secundario {
+  color: var(--secundario) !important;
+}
+
+.font-cabin {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700 !important;
+}
+
+.font-mono {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--primario);
+  width: 75%;
+  border: none;
+  margin-top: 0.30rem;
+  margin-bottom: 1rem;
+}
+
+.bg-primario {
+  background-color: var(--primario) !important;
+}
+
+.bg-secundario {
+  background-color: var(--secundario) !important;
+}
+
+.p5 {
+  background: ;
+}
+
+.p-title {
+  font-size: 1.1rem !important;
+}
+
+.p-subtitle {
+  font-size: 0.9rem !important;
+  font-weight: 300;
+}
+.capitalize {
+  text-transform: capitalize !important;
+}
+
+.portfolio-title {
+  font-size: 3rem;
+}
+
+.portfolio-subtitle {
+  font-size: 1.4rem;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+body>.container {
+  padding: 60px 15px 0;
+}
+
+.footer>.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.portfolio {
+  max-width: 1400px;
+}
+
+.header {
+  padding: 2.5rem;
+}
+
+.img-p {}
+
+.bg-dark {
+  background-color: black;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Portfolio Grid */
+.media {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.media__image {
+  display: block;
+}
+
+.media__video {
+  display: block;
+  width: 100%;
+}
+
+.media__body {
+  background: rgba(38, 39, 41, 0.80);
+  bottom: 0;
+  color: white;
+  font-size: 1em;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 30% 10%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.media__body:hover {
+  opacity: 1;
+}
+
+.media__body h2 {
+  margin-top: 0;
+}
+
+.media__body p {
+  margin-bottom: 1.5em;
+}
+
+p {
+  padding-bottom: 1em !important;
+}
+
+.cont-bg {
+    width: 85%;
+    padding: 4% 0;
+  }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  .cont-bg {
+    width: 98%;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cont-bg {
+    width: 96%;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .cont-bg {
+    width: 90%;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .cont-bg {
+    width: 85%;
+  }
+}
+

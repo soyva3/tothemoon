@@ -1,7 +1,7 @@
 ---
 title: "Institutional Video"
 client: "Knowmad Institut"
-date: 2018-12-09T23:21:27-03:01
+date: 2018-12-03
 image: images/knowmad-animation/knowmad-institut-logo.png
 imageCaption: images/knowmad-animation/portada2.gif
 draft: true

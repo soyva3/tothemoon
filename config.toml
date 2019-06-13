@@ -1,11 +1,13 @@
 baseURL = "https://tothemoon.uy"
 languageCode = "en-us"
 title = "To The Moon"
-theme = "tothemoon"
+theme = "tothemoon2"
 
 [params.meta]
 	title = "To The Moon Studio"
-	description = "We do cool stuff...." #max 200 characters
-  url = "tothemoon.uy"
-  image = "/img/p1.png" #JPG, PNG, WEBP and GIF. SVG not supporter. Max 5MB.
-  twitterUser = "@tothemoon" # @user
+	description = "We create stories and identities" #max 200 characters
+	url = "tothemoon.uy"
+	image = "/img/p1.png" #JPG, PNG, WEBP and GIF. SVG not supporter. Max 5MB.
+	twitterUser = "@tothemoonuy" # @user
+
+

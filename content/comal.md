@@ -5,7 +5,7 @@ image: "images/comal/comal-01.png"
 caption: ""
 imageCaption: "images/comal/comal-00.png"
 type: "portfolio"
-date: 2018-10-09T23:21:23-03:00
+date: 2018-10-03
 draft: true
 color: ""
 ---

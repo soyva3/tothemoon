@@ -1,0 +1,24 @@
+{{ "<!-- Portfolio Section Start -->" | safeHTML }}
+<div class="d-flex justify-content-around">
+  <div class="cont-bg">
+    <div class="row align-items-center align-middle">
+      {{ range $index, $element:= where .Data.Pages "Type" "portfolio" }}
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <figure class="media">
+
+          {{ with .Params.videoCaption }}<video loop autoplay class="img-fluid media__video" src="{{ . }}"></video>{{ end }}
+          {{ with .Params.imageCaption }}<img class="img-fluid" src="{{ . }}">{{ end }}
+          
+          <figcaption class="media__body">
+            <a class="align-middle" href="{{ .Permalink }}">
+              <h2 class="text-center font-cabin p-title">{{ .Params.client }}</h2>
+              <p class="text-center font-mono p-subtitle">{{ .Title }}</p>
+            </a>
+          </figcaption>
+        </figure>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ "<!-- Portfolio Section End -->" | safeHTML }}

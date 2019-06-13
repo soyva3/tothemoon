@@ -1,7 +1,7 @@
 ---
 title: "Brand Identity Development"
 client: "Knowmad Institut"
-date: 2018-10-09T23:21:27-03:01
+date: 2018-12-01
 image: images/knowmad/b2-01.jpg
 imageCaption: images/knowmad/b2-00.jpg
 draft: true

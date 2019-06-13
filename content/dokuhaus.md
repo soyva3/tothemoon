@@ -3,15 +3,14 @@ title: "Animated Video"
 client: "Dokuhaus"
 image: "images/dokuhaus/dokuhaus_1.png"
 caption: ""
-imageCaption: "images/dokuhaus/portada_dokuhaus.gif"
 videoCaption: "images/dokuhaus/portada_dokuhaus.mp4"
 type: "portfolio"
-date: 2019-06-02T23:21:17-03:00
+date: 2019-04-01
 draft: true
 color: "#fffcf5"
 ---
 
-{{< youtube En-IyGF0K98 >}}
+{{< vimeo 341501984 >}}
 <br class="py-5">
 
 {{< img src="/images/dokuhaus/dokuhaus_2.png" >}}

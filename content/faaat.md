@@ -1,7 +1,7 @@
 ---
 title: "Cannabis & Sustainable Development"
 client: "FAAAT - For Alternative Approaches to Addiction, Think & Do tank"
-date: 2019-05-01T17:19:27-03:01
+date: 2019-03-01
 image: images/faaat/mockup-1.jpg
 imageCaption: images/faaat/faaat-00.png
 draft: true

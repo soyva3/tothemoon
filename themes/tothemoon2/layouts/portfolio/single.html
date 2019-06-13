@@ -1,0 +1,20 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+
+<body style="background-color: {{ .Params.color }};">
+  {{ partial "navbar.html" . }}
+  {{ partial "portfolio-intro.html" . }}
+  {{ with .Content }}
+  <div class="container ">
+    {{ . }}
+  </div>
+  {{ end }}
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
+</body>
+</html>

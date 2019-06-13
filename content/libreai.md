@@ -5,7 +5,7 @@ image: "/images/libreai/lai-01.jpg"
 caption: ""
 imageCaption: "images/libreai/lai-00.jpg"
 type: "portfolio"
-date: 2018-10-09T23:21:27-03:02
+date: 2019-01-01
 draft: true
 color: "#f9f8f4"
 ---
