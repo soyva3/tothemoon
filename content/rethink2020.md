@@ -17,45 +17,40 @@ textColor: "text-white"
 <p class="py-5">
 
 <div class="row">
-	<div class="col-12 col-md-4 py-2">
-		<div class="embed-responsive embed-responsive-4by3">
+	<div class="col-12 col-md-4 p-5">
+		<div class="embed-responsive embed-responsive-16by9">
 			<video loop>
 				<source src="/images/rethink2020/rethink2020_simbol_1.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
 		</div>
 	</div>
-	<div class="col-12 col-md-4 py-2">
-		<div class="embed-responsive embed-responsive-4by3">
+	<div class="col-12 col-md-4 p-5">
+		<div class="embed-responsive embed-responsive-16by9">
 			<video loop>
 				<source src="/images/rethink2020/rethink2020_simbol_2.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
 		</div>
 	</div>
-	<div class="col-12 col-md-4 py-2">
-		<div class="embed-responsive embed-responsive-4by3">
+	<div class="col-12 col-md-4 p-5">
+		<div class="embed-responsive embed-responsive-16by9">
 			<video loop>
 				<source src="/images/rethink2020/rethink2020_simbol_3.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
 		</div>
 	</div>
-</div>
-
-<p class="py-5">
-
-<div class="row">
-	<div class="col-6 py-5">
-		<div class="embed-responsive embed-responsive-4by3">
+	<div class="col-12 col-md-6 p-5">
+		<div class="embed-responsive embed-responsive-16by9">
 			<video loop>
 				<source src="/images/rethink2020/rethink2020_simbol_hover.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
 		</div>
 	</div>
-	<div class="col-6 py-5">
-		<div class="embed-responsive embed-responsive-4by3">
+	<div class="col-12 col-md-6 p-5">
+		<div class="embed-responsive embed-responsive-16by9">
 			<video loop>
 				<source src="/images/rethink2020/rethink2020_simbol_all.mp4" type="video/mp4">
 				Your browser does not support the video tag.

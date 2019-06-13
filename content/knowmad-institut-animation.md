@@ -3,7 +3,7 @@ title: "Institutional Video"
 client: "Knowmad Institut"
 date: 2018-12-03
 image: images/knowmad-animation/knowmad-institut-logo.png
-imageCaption: images/knowmad-animation/portada2.gif
+videoCaption: images/knowmad-animation/portada_knowmad.mp4
 draft: true
 caption: ""
 type: "portfolio"
@@ -14,7 +14,7 @@ color: "#E6EBE0"
 
 <div class="container">
 	<div class="row">
-		<div class="col-12 col-lg-4 py-2">
+		<div class="col-12 col-lg-4 p-4">
 			<div class="embed-responsive embed-responsive-16by9">
 				<video autoplay loop>
 					<source src="/images/knowmad-animation/es-2.mp4" type="video/mp4">
@@ -22,7 +22,7 @@ color: "#E6EBE0"
 				</video>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4 py-2">
+		<div class="col-12 col-lg-4 p-4">
 			<div class="embed-responsive embed-responsive-16by9">
 				<video autoplay loop>
 					<source src="/images/knowmad-animation/es-3.mp4" type="video/mp4">
@@ -30,7 +30,7 @@ color: "#E6EBE0"
 				</video>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4 py-2">
+		<div class="col-12 col-lg-4 p-4">
 			<div class="embed-responsive embed-responsive-16by9">
 				<video autoplay loop>
 					<source src="/images/knowmad-animation/es-4.mp4" type="video/mp4">
